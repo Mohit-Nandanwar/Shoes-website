@@ -1,0 +1,209 @@
+/* GLOBAL STYLES */
+body {
+     font-family: 'Segoe UI', sans-serif;
+     color: #333; margin: 0;
+      background: #fff; 
+    }
+.navbar {
+     display: flex;
+     align-items: center; 
+     justify-content: space-between; 
+     padding: 20px 50px; 
+     border-bottom: 1px solid #eee; 
+    }
+
+    .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* ya apna color */
+  z-index: 1000; /* taaki sabse upar rahe */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+     font-size: 24px;
+      font-weight: bold; 
+      color: #2d5bff; 
+    }
+.logo span {
+     color: #ff8c00; 
+    }
+nav a, .dropdown {
+     margin: 0 15px; 
+     text-decoration: none;
+      color: #666; 
+      cursor: pointer;
+     }
+.nav-actions {
+     display: flex;
+      align-items: center;
+       gap: 15px; 
+    }
+.search-bar input {
+     padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ddd; 
+      background: #f9f9f9; 
+    }
+
+/* HOME PAGE STYLES [1] */
+.hero-page {
+     display: flex; 
+     padding: 60px 100px; 
+     background: linear-gradient(to right, #fff 60%, #f0f0f0 40%); 
+    }
+.hero-content h1 {
+     font-size: 60px; 
+     margin: 20px 0; 
+    }
+.hero-content h1 span { 
+    color: #ff8c00; 
+}
+.btn-dark {
+     background: #2d3436; 
+     color: white;
+      padding: 15px 40px;
+       border-radius: 30px; 
+       border: none; 
+       cursor: pointer; 
+    }
+.hero-image-container img {
+     width: 100%; 
+     transform: rotate(-15deg); 
+    }
+.stats-strip {
+     background: #ff8c00; 
+     color: white; 
+     display: flex; 
+     justify-content: space-around;
+      padding: 30px;
+     }
+
+/* PRODUCT PAGE STYLES [2] */
+.product-grid {
+     display: grid; 
+     grid-template-columns: 1fr 1fr; 
+     gap: 50px; 
+     padding: 40px 100px; 
+    }
+.main-card { 
+    background: #f8f8f8; 
+    padding: 40px; border-radius: 20px;
+     text-align: center; 
+    }
+.thumbs { 
+    display: flex; gap: 10px;
+     margin-top: 20px;
+     }
+.thumbs img { 
+    width: 80px; 
+    padding: 10px; 
+    border: 1px solid #eee; 
+    border-radius: 10px; 
+}
+.price-tag { 
+    background: #d7dbfe;
+    border-radius: 10px; 
+    padding: 10px 20px;
+    font-size: 32px; 
+    color: #2d5bff; 
+    font-weight: bold; 
+}
+.save-tag { 
+    color: #4caf50;
+     font-weight: bold;
+      margin-left: 15px; 
+    }
+.btn-orange { 
+    background: #ff8c00;
+     color: white; 
+     border: none; 
+     padding: 15px 30px; 
+     border-radius: 10px; 
+     cursor: pointer; 
+    }
+
+    .btn-orange:hover {
+        background: rgb(19, 182, 48);
+        color: #ffffff;
+    }
+
+/* CART & CHECKOUT STYLES [3, 4] */
+.cart-container, .checkout-layout { 
+    display: flex; 
+    gap: 40px;
+     padding: 40px 100px; 
+    }
+.summary-box { 
+    background: #e1e0e0; 
+    color: #000000;
+    padding: 30px; 
+    border-radius: 15px; 
+    border: 1px solid #f0f0f0; 
+    width: 350px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+}
+.coupon-input { 
+    display: flex; 
+    gap: 10px;
+     margin: 15px 0; 
+    }
+.btn-blue { 
+    background: #2d5bff; 
+    color: white;
+     border: none; 
+     padding: 10px 15px; 
+     border-radius: 8px; 
+    }
+.summary-line { 
+    display: flex; 
+    justify-content: space-between;
+     margin: 10px 0; 
+     color: #312f2f; 
+    }
+.total-line { display: flex; justify-content: space-between; font-weight: bold; font-size: 20px; margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; }
+.btn-pay { width: 100%; background: #ff8c00; color: white; border: none; padding: 20px; border-radius: 12px; font-size: 18px; font-weight: bold; margin-top: 25px; cursor: pointer; }
+
+/* FORM INPUTS [4] */
+.payment-tabs {
+     display: flex; 
+     gap: 10px; 
+     margin: 20px 0;
+     }
+
+     .payment-tabs .tab:hover{
+            border-color: #ff8c00;
+     }
+.tab { 
+    flex: 1; 
+    padding: 15px; 
+    border: 1px solid #ddd; 
+    background: white; 
+    border-radius: 10px; 
+    cursor: pointer; 
+}
+.tab.active { 
+    border-color: #ff8c00; 
+    color: #ff8c00; 
+}
+input[type="text"], select { 
+    width: 100%;
+     padding: 12px; 
+     margin: 8px 0; 
+     border: 1px solid #e1e1e1; 
+     border-radius: 8px; 
+     background: #fcfdfe; 
+    }
+.flex-row { 
+    display: flex; 
+    gap: 15px; 
+}
+
+.summary-box .btn-pay:hover{
+    color: #ffffff;
+    background: rgb(19, 182, 48);
+}
+
+

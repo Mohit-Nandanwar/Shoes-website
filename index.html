@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Mini project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">Thala <span>7.</span></div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Brands</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="nav-actions">
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="cart-icon">🛒 <span>0</span></div>
+        <div class="profile-pic">👤</div>
+    </div>
+</header>
+
+<section class="hero-page">
+    <div class="hero-content">
+        <img src="https://th.bing.com/th/id/OIP.Te1h8bhPNWwPPBV9CXR-tQAAAA?w=302&h=141&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="Seven Logo" class="brand-logo">
+        <h1>7!! Thala For <br>a <span>Reason!</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Pretium quisque lorem feugiat justo at ut orci nisi.</p>
+        <button class="btn-dark">Shop Now</button>
+    </div>
+    <div class="hero-image-container">
+         <li><figure class="shoes-photo"><img src="shoe.png" alt="Pizza"></figure></li>
+    </div>
+</section>
+<footer class="stats-strip">
+    <div class="stat"><span class="icon">💬</span> 2k+ Reviews</div>
+    <div class="stat"><span class="icon">👥</span> 30k+ Customers</div>
+    <div class="stat"><span class="icon">⭐</span> High Quality</div>
+    <div class="stat"><span class="icon">✨</span> 4.5/5 Rating</div>
+</footer>
+
+<div class="breadcrumbs">Home > THALA FOR A REASON > Seven By M.S.Dhoni Women's...</div>
+<main class="product-grid">
+    <div class="product-gallery">
+        <div class="main-card"> <li><figure class="shoes-photo"><img src="shoess.png" alt="Shoe"></figure></li></div>
+        <div class="thumbs">
+            <li><figure class="shoes-photo"><img src="shoesu.png" alt="shoesu"></figure></li>
+             <li><figure class="shoes-photo"><img src="shoeb.png" alt="shoesb"></figure></li> 
+             <li><figure class="shoes-photo"><img src="shoess.png" alt="shoess"></figure></li> 
+             <li><figure class="shoes-photo"><img src="shoesf.png" alt="shoes"></figure></li>
+        </div>
+    </div>
+    <div class="product-details">
+        <h2>Seven By M.S.Dhoni Women's Hogun Multi-Color Running Shoes</h2>
+        <p class="desc">For exceptional fit, feel and smooth transitions get going with these dual mid sole technology shoes...</p>
+        <div class="price-row">
+            <span class="price-tag">₹1,334</span>
+            <span class="save-tag">Save 12%</span>
+        </div>
+        <p class="tax-info">Inclusive of all Taxes</p>
+        <div class="action-row">
+            <select><option>Size 6</option><option>Size 7</option><option>Size 8</option><option>Size 9</option></select>
+            <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+            <button class="btn-orange">🛒 ADD TO CART</button>
+        </div>
+    </div>
+</main>
+
+<section class="cart-container">
+    <div class="cart-list">
+        <h1>Shopping Cart</h1>
+        <div class="cart-header"><span>Product</span><span>Quantity</span><span>Price</span></div>
+        <div class="cart-item">
+            <span>Seven By M.S.Dhoni W...</span>
+            <span class="qty-ctrl">- 1 +</span>
+            <span>₹4,999</span>
+            <span class="remove">×</span>
+        </div>
+        <!-- Repeat items as needed -->
+        <a href="#" class="back-link">‹ Continue Shopping</a>
+    </div>
+   
+</section>
+
+<section class="checkout-layout">
+    <div class="checkout-form">
+        <h3>Contact Details</h3>
+        <label>Email ID</label>
+        <input type="text" placeholder="John Doe">
+        
+        <h3>Payment</h3>
+        <div class="payment-tabs">
+            <button class="tab">💳 Card</button>
+            <button class="tab">₿ Crypto</button>
+            <button class="tab">🏦 Bank</button>
+        </div>
+        <div class="card-inputs">
+            <label>Card Number</label>
+            <input type="text" placeholder="John Doe">
+            <div class="flex-row">
+                <input type="text" placeholder="MM/YY">
+                <input type="text" placeholder="***">
+            </div>
+            <div class="flex-row">
+                <select><option>India</option></select>
+                <input type="text" placeholder="XXXXX">
+            </div>
+        </div>
+    </div>
+
+    <section>
+     <aside class="summary-box">
+        <label>Enter Coupon Code</label>
+        <div class="coupon-input">
+            <input type="text" placeholder="COUPON CODE">
+            <button class="btn-blue">Apply Coupon</button>
+        </div>
+        <div class="summary-line">Sub Total <span>₹4,700</span></div>
+        <div class="summary-line">Taxes(if applicable) <span>₹199</span></div>
+        <div class="summary-line">Discount <span>₹0</span></div>
+        <div class="total-line">Total <span>₹4,999</span></div>
+        <button class="btn-pay">Pay Now ₹4,999</button>
+        <div class="gateways">🛡️ Razorpay </div>
+    </aside>
+</section>
+   
+</section>
+
+
+</body>
+</html>
